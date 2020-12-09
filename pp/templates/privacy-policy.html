@@ -1,0 +1,116 @@
+<html>
+<head>
+  <title>Test</title>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>Our Privacy Policy explains what information we collect, how we use it, and the choices you have, including how to manage your privacy and cookies settings, access the information we have about you, and delete your account.
+{{ site_url }}/{{ site_name }} is committed to protecting consumer privacy online. We believe that greater protection of personal privacy on the Web will not only protect our users, but also increase users confidence and ultimately their participation in online activities. The purpose of our policy is to inform you about the types of information we gather about you when you visit our site, how we may use that information, whether we disclose it to anyone, and the choices you have regarding our use of the information. {{ site_url }}/{{ site_name }} strives to offer its visitors the many advantages of Internet technology and to provide an interactive and personalized experience.
+  </p>
+
+  <h3>Your Consent</h3>
+
+  <p>BY USER {{ site_url }}/{{ site_name }} SERVICES, INSTALLING AND/OR RUNNING ON YOUR MOBILE DEVICE OR BROWSER, ENTERING INTO, CONNECTING TO, ACCESSING AND/OR USING THE APP, YOU AGREE TO THE TERMS AND CONDITIONS SET FORTH IN THIS PRIVACY POLICY, INCLUDING TO THE POSSIBLE COLLECTION AND PROCESSING OF YOUR PERSONAL INFORMATION. PLEASE NOTE: IF YOU OR, AS APPLICABLE, YOUR LEGAL GUARDIAN, DISAGREE TO ANY TERM PROVIDED HEREIN, YOU MUST NOT ACCESS {{ site_url }}/{{ site_name }} SERVICES AND YOU ARE REQUESTED TO PROMPTLY ERASE THE APP FROM YOUR MOBILE DEVICE OR STOP USING OUR WEBSITE THROUGH YOUR BROWSER AND DO NOT ENTER TO, CONNECT TO, ACCESS OR USE ANY OF OUR SERVICES.</p>
+
+  <h3>What information do we collect?</h3>
+  <p>Data we may collect when you use our services (whether or not you register with us)
+  	<ul>
+  		<li>data about your location, device type, operating system and platform;</li>
+  		<li>mobile device identifiers (such as your unique device ID (persistent/non-persistent, hardware type, medial access control ("MAC") address, international mobile equipment identity ("IMEI"), OS, and your device name;
+</li>
+  		<li>data about your computer's browser version, operating system version, page loading time, network, generated device identifier information, hashed MAC address, referral source and IP address.</li>
+  		<li>the number of times you visit our website and the amount of time you spend on our website</li>
+  		<li>With this list, we try to be as clear and complete as possible, but we find it important to keep this Privacy Policy legible, so there may be other information we collect.
+</li>
+  	</ul>
+</p>
+
+<h3>How do we use your information?
+</h3>
+<p>
+	We may use your data in the following ways:
+
+	<ul>
+		<li>To provide you the associated websites and continuously improve their features;</li>
+		<li>To store your running-history;
+</li>
+		<li>To provide helpdesk and support services;
+</li>
+		<li>To customise the website which is available to you;
+</li>
+		<li>To ensure that you are in compliance with our terms;
+</li>
+<li>To personalise your experience;
+</li>
+<li>To offer you other services and Apps which we think may be of interest to you;</li>
+<li>To prevent fraud and crime;
+</li>
+<li>To create a profile for marketing purposes with for example Facebook or Google;
+</li>
+<li>Emails (regarding updates, newsletter, new features, (new) apps etc.);
+</li>
+<li>Administrative purposes, such as notification of a violation of our terms of use.
+</li>
+	</ul>
+</p>
+
+<h3>Cookies and Web Beacons (Show this section only if Cookies are collected)
+</h3>
+<p>We use "cookies." The cookies we place on your computer are very small text files that uniquely identify your browser and may be sent to your computer or mobile device. They are stored on your hard drive and communicate with our servers only when you are visiting our websites. We use cookies to improve the quality of {{ site_url }}/{{ site_name }}. They allow us to monitor aggregate metrics such as total number of visitors and number of pages viewed. They also allow us to optimize {{ site_url }}/{{ site_name }} to make sure that we are delivering the best possible experience to our users. Your web browser is likely already set to accept cookies, yet you may choose to block cookies in your web browser’s settings. Note that blocking cookies may result in some features not being able to function properly. To learn more about controlling browser cookies visit: http://www.aboutcookies.org/Default.aspx?page=1.
+</p>
+
+<h3>Device Information</h3>
+<p>We collect information regarding the Internet browser, computer, tablet, mobile phone, smartphone or other device utilized to access {{ site_name }} to ensure that {{ app_name }}/{{ site_url }}/{{ site_name }} is optimized for those devices.</p>
+
+<h3>Log Files</h3>
+<p>We may also automatically log certain anonymous information about visitors to {{ site_url }}/{{ site_name }}, including, but not limited to, where the user came from to visit our site, IP address, search terms utilized, browser type and a reading history of the pages viewed.</p>
+
+
+
+
+{%  if analytics == "true" %}
+<h3>Analytics</h3>
+<p>We use third party information, reports and analysis about the usage and browsing patterns of users of {{ site_name }}. We allow the third party analytics companies to include web beacons and cookies on {{ site_name }}. The collected information includes search terms, search parameters, click-throughs by users, and other similar information. We utilize this information to improve {{ site_name }} and make sure we are delivering relevant content to our users. The Analytics we use do not identify individual users of {{ site_name }}{{ site_url }}.</p>
+{% endif %}
+
+{%  if marketing == "true" %}
+<h3>Third Party Ad Networks and Social Networks</h3>
+<p>{{ site_name }}{{ site_url }} expects its partners, advertisers to respect the privacy of our users. However, third parties, including our partners, advertisers and other content providers accessible through our site, may have their own privacy and data collection policies and practices. For example, during your visit to our site you may link to, or view as part of a frame on {{ site_name }} page, certain content that is actually created or hosted by a third party. Also, through {{ site_name }} you may be introduced to, or be able to access, information, Web sites, advertisements, features, contests or sweepstakes offered by other parties. {{ site_name }} is not responsible for the actions or policies of such third parties. You should check the applicable privacy policies of those third parties when providing information on a feature or page operated by a third party.
+ 
+While on our site, our advertisers, promotional partners or other third parties may use cookies or other technology to attempt to identify some of your preferences or retrieve information about you. For example, some of our advertising is served by third parties and may include cookies that enable the advertiser to determine whether you have seen a particular advertisement before. Through features available on our site, third parties may use cookies or other technology to gather information. {{ site_name }}{{ site_url }} does not control the use of this technology or the resulting information and is not responsible for any actions or policies of such third parties.
+ 
+We use third-party advertising companies to serve ads when you visit our Website. These companies may use non-personal information (i.e., information that does not include your name, address, email address or telephone number) about your visits to this and other Websites in an effort to provide advertisements about goods and services that may be of interest to you.
+</p>
+{% endif %}
+
+
+{%  if ads == "true" %}
+<p>In addition to the above, we have implemented at {{ site_name }} certain "Google Analytics" features that support display advertising, including re-targeting. Visitors to {{ site_name }} may opt out of Google Analytics, customize the Google Display Network ads by using the Google Ad Preferences Manager and learn more about how google serves ads by viewing its Customer Ads Help Center. If you do not wish to participate in Google Analytics, you may also download the Google Analytics opt-out browser add-on.</p>
+{% endif %}
+
+<h3>Children's Information</h3>
+<p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
+{{ site_name }} does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+
+<h3>Information security and accuracy</h3>
+<p>We intend to protect your personal information and to maintain its accuracy. {{ site_name }} implements reasonable physical, administrative and technical safeguards to help us protect your personal information from unauthorized access, use and disclosure.</p>
+
+<h3>Online Privacy Policy Only</h3>
+<p>This privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collected in {{ site_name }}. This policy is not applicable to any information collected offline or via channels other than this website.</p>
+
+<h3>Access to information</h3>
+<p>You have the right to request access to the information we have on you. You can do this by contacting us at {{ email }} We will make sure to provide you with a copy of the data we process about you. In order to comply with your request, we may ask you to verify your identity. We will fulfill your request by sending your copy electronically. For any subsequent access request, we may charge you with an administrative fee.</p>
+
+<h3>Information correction & deletion</h3>
+<p>If you believe that the information we have about you is incorrect, you are welcome to contact us so we can update it and keep your data accurate. If at any point you wish for {{ site_name }} to delete information about you, you can simply contact us at {{ email }}.</p>
+
+<h3>Changes in Privacy Policy</h3>
+<p>{{ site_name }} reserves the right to change or update this Privacy Policy at any time by posting a notice at the Site explaining that we are changing our Privacy Policy.</p>
+
+<h3>Contacting the Site</h3>
+<p>We welcome your feedback and we thank you for using {{ site_name }}! If you have additional questions or require more information about our Privacy Policy, do not hesitate to reach out to us at {{ email }}.</p>
+
+
+  
+</body>
+</html>
